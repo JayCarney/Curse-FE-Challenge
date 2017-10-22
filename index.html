@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Curse FE Challenge - Jason Carney</title>
+  <link rel="stylesheet" href="/build/css/main.css">
+  <script src="/build/js/main.js" async></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="masthead">
+      <img src="/img/logo.png" alt="Titanstar Legends" class="masthead__logo">
+      <div class="masthead__util">
+        <div class="masthead__search">
+          <form action="#" class="search" method="get">
+            <div class="search__input-group">
+              <input name="search" type="search" class="search__input" placeholder="Search" aria-label="Search">
+            </div>
+            <button type="submit" class="search__button">Search</button>
+          </form>
+        </div>
+        <ul class="masthead__social social">
+          <li>
+            <a class="social__twitter" href="https://twitter.com">Follow us on Twitter</a>
+          </li>
+          <li>
+            <a class="social__facebook" href="https://facebook.com">Follow us on Facebook</a>
+          </li>
+          <li>
+            <a class="social__youtube" href="https://youtube.com">Subscribe on YouTube</a>
+          </li>
+        </ul>
+      </div>
+      <button class="masthead__nav-button nav-button hamburger hamburger--squeeze">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+        <span class="nav-button__label">Menu</span>
+      </button>
+    </div>
+    <nav class="nav">
+      <div class="nav__search">
+        <form action="#" class="search" method="get">
+          <div class="search__input-group">
+            <input name="search" type="search" class="search__input" placeholder="Search" aria-label="Search">
+          </div>
+          <button type="submit" class="search__button">Search</button>
+        </form>
+      </div>
+      <ul class="nav__items">
+        <li>
+          <a href="#" class="nav__snowflake">Snowflakes</a>
+        </li>
+        <li>
+          <a href="#" class="nav__magnet">Magnets</a>
+        </li>
+        <li>
+          <a href="#" class="nav__liquid nav__with-menu">Liquids</a>
+          <ul class="nav__nested">
+            <li>
+              <a href="#">Flammable</a>
+            </li>
+            <li>
+              <a href="#">Combustable</a>
+            </li>
+            <li>
+              <a href="#">Flambustable</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav__social social">
+        <li>
+          <a class="social__twitter" href="https://twitter.com">Follow us on Twitter</a>
+        </li>
+        <li>
+          <a class="social__facebook" href="https://facebook.com">Follow us on Facebook</a>
+        </li>
+        <li>
+          <a class="social__youtube" href="https://youtube.com">Subscribe on YouTube</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="nav__cover"></div>
+    <div class="flex-col">
+      <main class="calculator">
+        <h1 class="calculator__title">TitanStar Legends - Rune Mastery Loadout Talent Calculator 9000</h1>
+        <div class="calculator__container">
+          <div class="calculator__paths">
+            <div class="calculator__path">
+              <h2 class="calculator__path-title">Talent Path 1</h2>
+              <div class="calculator__tree">
+                <button class="calculator__chevron">Chevron</button>
+                <button class="calculator__food">Food</button>
+                <button class="calculator__cake">Cake</button>
+                <button class="calculator__crown">Crown</button>
+              </div>
+            </div>
+            <div class="calculator__path">
+              <h2 class="calculator__path-title">Talent Path 2</h2>
+              <div class="calculator__tree">
+                <button class="calculator__boat">Boat</button>
+                <button class="calculator__snorkle">Snorkle</button>
+                <button class="calculator__lightning">Lightning</button>
+                <button class="calculator__skull">Skull</button>
+              </div>
+            </div>
+          </div>
+          <div class="calculator__total">
+            <h2>Points Spent</h2>
+            <p>
+              <span class="calculator__used">3</span> /
+              <span class="calculator__possible">6</span>
+            </p>
+          </div>
+          <div class="calculator__share">
+            <h2>Share your build</h2>
+            <div class="spec-output">
+              <input class="spec-output__content" type="text" id="spec-output" value="http://test.com">
+              <button class="spec-output__button" data-clipboard-target="#spec-output">Copy</button>
+            </div>
+          </div>
+        </div>
+      </main>
+      <article class="news">
+        <header class="news__header">
+          <h2 class="news__title">Important News Item</h2>
+          <p class="news__info">By
+            <a href="#">Author</a> at 12:51pm</p>
+        </header>
+        <div class="news__content">
+          <p>Maecenas nec ante leo. Donec id eros consequat justo dignissim dapibus at ut nisl. Aenean non consectetur augue,
+            eget congue metus. Etiam vehicula justo at elit volutpat, convallis placerat nisi gravida.</p>
+          <p>Donec ultrices justo odio, id pellentesque nunc porta id. Maecenas mauris ante, venenatis quis vestibulum sit amet,
+            accumsan quis massa. Vivamus vitae feugiat sapien. Mauris placerat erat a egestas faucibus. Sed convallis elementum
+            metus, et fringilla libero vehicula imperdiet. In ac blandit mi. Sed laoreet molestie arcu.</p>
+          <a href="#" class="news__more">Read more</a>
+        </div>
+      </article>
+    </div>
+    <footer class="footer">
+      <ul class="footer__social social">
+        <li>
+          <a class="social__twitter" href="https://twitter.com">Follow us on Twitter</a>
+        </li>
+        <li>
+          <a class="social__facebook" href="https://facebook.com">Follow us on Facebook</a>
+        </li>
+        <li>
+          <a class="social__youtube" href="https://youtube.com">Subscribe on YouTube</a>
+        </li>
+      </ul>
+      <div class="footer__info">
+        <ul class="footer__nav">
+          <li>
+            <a href="#">Snowflakes</a>
+          </li>
+          <li>
+            <a href="#">Magnets</a>
+          </li>
+          <li>
+            <a href="#">Liquids</a>
+          </li>
+        </ul>
+        <p class="footer__credits">Curse Front-End Design Challenge - Copyright 2017</p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
